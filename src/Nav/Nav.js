@@ -5,17 +5,21 @@ class Nav extends Component {
     about = () => {
         this.props.history.push('/about')
     }
+
     render(){
         return (
-          <div className="nav">
-            <Button variant="contained" color="secondary" onClick={this.about}>
+          <div className="nav-bar">
+            {/* <Button variant="contained" color="secondary" onClick={this.about}>
                 About Me
-            </Button>
-            {/* <Link className="about" to="/about">
-              About
-            </Link> */}
-            <Link className="homepage" to="/homepage">
+            </Button> */}
+            <Link className="nav-link" to="/homepage">
               Home
+            </Link>
+            <Link className="nav-link" to="/about">
+              About
+            </Link>
+            <Link className="nav-link" to="/contact">
+              Contact
             </Link>
           </div>
         );
