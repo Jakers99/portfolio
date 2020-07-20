@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  color: rgb(184, 184, 184);
+  text-shadow: 2px 2px rgb(141, 140, 140);
+  font-size: 70px;
 }
 body {
   background: url(https://i.pinimg.com/originals/54/ba/1a/54ba1aebeb5c5c92105f430009db074c.jpg);
