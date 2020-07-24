@@ -5,7 +5,7 @@ class Homepage extends Component {
         return (
           <div className="App">
             <header>
-              <h1>Jake's Website</h1>
+              <h1>Jake Dahl</h1>
             </header>
           </div>
         );
